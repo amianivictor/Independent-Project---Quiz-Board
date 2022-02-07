@@ -82,13 +82,8 @@ const questions = [
     },
 
 
-
-
-
-
-
-
-
-    
-
 ]
+
+let shuffledQuestions = [] 
+
+
