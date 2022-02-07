@@ -138,3 +138,8 @@ function checkForAnswer() {
             playerScore++
             indexNumber++
 
+            setTimeout(() => {
+                questionNumber++
+            }, 1000)
+        }
+
