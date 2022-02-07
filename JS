@@ -43,3 +43,35 @@ const myQuestions = [
   }
 ];
 
+const myQuestions = [
+    {
+      question: "where? is moringa school at?",
+      answers: {
+        a: "Eldoret",
+        b: "Mombasa",
+        c: "NAirobi"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Which one of these is a JavaScript package manager?",
+      answers: {
+        a: "Node.js",
+        b: "TypeScript",
+        c: "npm"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "The last course at moringa?",
+      answers: {
+        a: "Prep",
+        b: "Pre-prep",
+        c: "Pre",
+        d: "Core"
+      },
+      correctAnswer: "d"
+    }
+  ];
+  
+
