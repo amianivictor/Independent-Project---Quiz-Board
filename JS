@@ -206,3 +206,15 @@ function handleEndGame() {
 
 }
 
+function closeScoreModal() {
+    questionNumber = 1
+    playerScore = 0
+    wrongAttempt = 0
+    indexNumber = 0
+    shuffledQuestions = []
+    NextQuestion(indexNumber)
+    document.getElementById('score-modal').style.display = "none"
+}
+function closeOptionModal() {
+    document.getElementById('option-modal').style.display = "none"
+}
