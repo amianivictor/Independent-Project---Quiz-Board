@@ -175,3 +175,9 @@ function resetOptionBackground() {
         document.getElementById(option.labels[0].id).style.backgroundColor = ""
     })
 }
+function unCheckRadioButtons() {
+    const options = document.getElementsByName("option");
+    for (let i = 0; i < options.length; i++) {
+        options[i].checked = false;
+    }
+}
