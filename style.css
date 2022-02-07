@@ -34,3 +34,10 @@ main{
     justify-content: space-around;
     border-radius: 30px;
 }
+.game-details-container{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
