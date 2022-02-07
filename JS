@@ -132,3 +132,9 @@ function checkForAnswer() {
         document.getElementById('option-modal').style.display = "flex"
     }
 
+    options.forEach((option) => {
+        if (option.checked === true && option.value === currentQuestionAnswer) {
+            document.getElementById(correctOption).style.backgroundColor = "green"
+            playerScore++
+            indexNumber++
+
