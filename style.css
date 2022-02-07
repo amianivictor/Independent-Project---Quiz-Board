@@ -91,3 +91,12 @@ span label:hover{
     transform: scale(1.12);
     color: white;
 }
+input[type="radio"] {
+    position: relative;
+    display: none;
+}
+
+
+input[type=radio]:checked ~ .option {
+	background: paleturquoise;
+}
