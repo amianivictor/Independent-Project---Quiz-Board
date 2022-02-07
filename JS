@@ -86,4 +86,15 @@ const questions = [
 
 let shuffledQuestions = [] 
 
+function handleQuestions() { 
+    
+    while (shuffledQuestions.length <= 9) {
+
+        const random = questions[Math.floor(Math.random() * questions.length)]
+        if (!shuffledQuestions.includes(random)) {
+            shuffledQuestions.push(random)
+        }
+    }
+}
+
 
