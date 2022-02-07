@@ -150,3 +150,22 @@ function checkForAnswer() {
             wrongAttempt++
             indexNumber++
      
+            setTimeout(() => {
+                questionNumber++
+            }, 1000)
+        }
+    })
+}
+function handleNextQuestion() {
+    checkForAnswer()
+    unCheckRadioButtons()
+    setTimeout(() => {
+        if (indexNumber <= 9) {
+            NextQuestion(indexNumber)
+        }
+        else {
+            handleEndGame()
+        }
+        resetOptionBackground()
+    }, 1000);
+}
