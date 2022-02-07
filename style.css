@@ -155,3 +155,16 @@ input[type=radio]:checked ~ .option {
     color: lightgray;
     text-align: center;
 }
+.grade-details{
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grade-details p{
+    color: white;
+    text-align: center;
+}
