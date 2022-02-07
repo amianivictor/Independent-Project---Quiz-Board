@@ -115,3 +115,15 @@ function NextQuestion(index) {
 
 }
 
+function checkForAnswer() {
+    const currentQuestion = shuffledQuestions[indexNumber] //gets current Question 
+    const currentQuestionAnswer = currentQuestion.correctOption //gets current Question's answer
+    const options = document.getElementsByName("option"); //gets all elements in dom with name of 'option' (in this the radio inputs)
+    let correctOption = null
+
+    options.forEach((option) => {
+        if (option.value === currentQuestionAnswer) {
+            //get's correct's radio input with correct answer
+            correctOption = option.labels[0].id
+        }
+    })
