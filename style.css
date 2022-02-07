@@ -44,3 +44,12 @@ main{
 .game-details-container h1{
     font-size: 1.2rem;
 }
+.game-question-container{
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkgray;
+    border-radius: 25px;
+}
