@@ -24,3 +24,13 @@ main{
     background-size: cover;
     background-position: center;
 }
+.game-quiz-container{
+    width: 40rem;
+    height: 30rem;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
